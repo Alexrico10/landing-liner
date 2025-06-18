@@ -18,13 +18,13 @@ const GalleryComponent = ({ images = [], linkUrl }) => {
             key={index}
             className="relative aspect-square overflow-hidden rounded-lg"
           >
-            <Image
-              src={src}
-              alt={`Gallery image ${index + 1}`}
-              fill
-              className="object-cover cursor-pointer"
-              onClick={handleClickImg}
-            />
+          <Image
+            src={src}
+            alt={`Gallery image ${index + 1}`}
+            fill
+            className="object-cover cursor-pointer"
+            onClick={handleClickImg}
+          />
           </div>
         ))}
       </div>
