@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -84,12 +85,12 @@ const Contact = () => {
           CONTACTAR
         </button>
       </form>
-      <a
-        href="#inicio"
+      <Link 
+        href="/"
         className="mt-8 inline-block text-color-gold hover:text-yellow-500"
       >
         ↑ INICIO ↑
-      </a>
+      </Link >
     </div>
   );
 };
