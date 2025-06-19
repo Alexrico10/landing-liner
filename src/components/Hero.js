@@ -22,7 +22,7 @@ const Hero = () => {
         <h1 className="text-5xl font-bold mb-4 text-color-gold">LinerTattoo</h1>
         <p className="text-lg text-white mb-6">
           Mi nombre es Álvaro, soy tatuador especializado en realismo y Black &
-          Grey. Llevo años dedicando mi pasión a crear tatuajes únicos y
+          Grey. Llevo años dedicando mi pasión a crear tatuajes únicos y a
           ayudarte a plasmar tus ideas en la piel con el máximo detalle y
           cuidado. Trabajo desde Madrid y estaré encantado de asesorarte sin
           compromiso.
