@@ -19,9 +19,9 @@ const Navbar = () => {
           </Link >
         </li>
         <li>
-          <a href="#contacto" className="hover:text-white text-color-gold text-base transition font-bold">
+          <Link href="/#contacto" className="hover:text-white text-color-gold text-base transition font-bold">
             CONTACTO
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

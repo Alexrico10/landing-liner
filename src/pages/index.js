@@ -23,6 +23,9 @@ export default function Home() {
     tattoo7,
     tattoo8,
     tattoo9,
+    tattoo3,
+    tattoo2,
+    tattoo4,
   ];
 
   return (

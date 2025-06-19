@@ -12,7 +12,7 @@ const GalleryComponent = ({ images = [], linkUrl }) => {
 
   return (
     <div className="py-12 px-4">
-      <div className="grid md:grid-cols-3 gap-4">
+      <div className="grid md:grid-cols-4 gap-4">
         {images.map((src, index) => (
           <div
             key={index}
