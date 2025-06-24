@@ -7,7 +7,9 @@ const Navbar = () => {
 
   return (
     <nav className="w-full px-6 py-6 flex justify-between items-center text-white border-b border-gray-700">
-      <div className="text-3xl text-color-gold font-bold">LinerTattoo</div>
+      <div className="text-3xl text-color-gold font-bold">
+        <Link href={"/"}>LinerTattoo</Link>
+      </div>
 
       {/* Botón hamburguesa solo en móvil */}
       <button
