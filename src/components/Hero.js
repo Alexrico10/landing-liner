@@ -3,29 +3,25 @@ import tattooImage from "../../public/img-hero.jpg";
 
 const Hero = () => {
   return (
-    <div className="max-w-7xl mx-auto flex items-center justify-between gap-8 py-16">
-      {/* Imagen a la izquierda con fundido */}
-      <div className="flex-1 relative">
+    <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 px-4 md:px-8 py-12 md:py-20">
+      {/* Imagen */}
+      <div className="w-full md:w-1/2 relative">
         <Image
           src={tattooImage}
           alt="Tatuaje"
-          className="w-full h-auto object-cover"
+          className="w-full h-auto object-cover rounded-lg"
           priority
         />
-        {
-          <div className="absolute inset-0 bg-gradient-to-r from-[#121115] via-transparent to-[#121115]"></div>
-        }
+        <div className="absolute inset-0 bg-gradient-to-r from-[#121115] via-transparent to-[#121115]"></div>
       </div>
 
-      {/* Texto a la derecha */}
-      <div className="flex-1">
-        <h1 className="text-5xl font-bold mb-4 text-color-gold">LinerTattoo</h1>
-        <p className="text-lg text-white mb-6">
-          Mi nombre es Álvaro, soy tatuador especializado en realismo y Black &
-          Grey. Llevo años dedicando mi pasión a crear tatuajes únicos y a
-          ayudarte a plasmar tus ideas en la piel con el máximo detalle y
-          cuidado. Trabajo desde Madrid y estaré encantado de asesorarte sin
-          compromiso.
+      {/* Texto */}
+      <div className="w-full md:w-1/2 mt-8 md:mt-0 text-center md:text-left">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-color-gold">
+          LinerTattoo
+        </h1>
+        <p className="text-base md:text-lg text-white mb-6">
+          Mi nombre es Álvaro, soy tatuador especializado en realismo y Black & Grey. Llevo años dedicando mi pasión a crear tatuajes únicos y a ayudarte a plasmar tus ideas en la piel con el máximo detalle y cuidado. Trabajo desde Madrid y estaré encantado de asesorarte sin compromiso.
         </p>
         <a
           href="#contacto"
