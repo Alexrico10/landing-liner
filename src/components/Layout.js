@@ -15,5 +15,4 @@ const Layout = ({ children }) => {
 
 export default Layout;
 
-
 //max-w-5xl
