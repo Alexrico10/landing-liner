@@ -11,7 +11,6 @@ const Footer = () => {
         >
           LinerTattoo
         </Link>
-        . Todos los derechos reservados.
       </p>
       <p className="text-sm">
         Developed by{" "}
